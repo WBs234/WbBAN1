@@ -10,4 +10,4 @@ gay()
 if resp==1:
     os.system("cmatrix")
 else:
-    gay()
+    os.system("clear")

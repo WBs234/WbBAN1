@@ -8,7 +8,7 @@ def gay():
      print('\n')
      resp=int(input(f"O número digitado foi {num}, está correto?[1=Y/2=N] "))
 gay()
-if resp == 1 :
+if resp==1:
     os.system("cmatrix")
 else:
     gay()

